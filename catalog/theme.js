@@ -30,7 +30,7 @@ export default {
     sidebarColor: "#ffd900",
     sidebarColorText: "#282124",
     sidebarColorTextActive: "#fff",
-    sidebarColorLine: "#282124",
+    sidebarColorLine: "#ffd900",
     sidebarColorHeading: "#282124",
   
     // Used in the html, react, and image specimens.
