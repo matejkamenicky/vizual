@@ -29,6 +29,7 @@ export default {
   
     sidebarColor: "#ffd900",
     sidebarColorText: "#282124",
+    sidebarColorTextHover: "#282124",
     sidebarColorTextActive: "#fff",
     sidebarColorLine: "#ffd900",
     sidebarColorHeading: "#282124",

@@ -21,6 +21,7 @@ ReactDOM.render(
         title: "Introduction",
         content: pageLoader(() => import("./intro.md"))
       },
-      />,
+    ]}
+    />,
   document.getElementById("catalog")
  );
