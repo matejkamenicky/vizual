@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Catalog, pageLoader } from "catalog";
-import theme from "./Theme";
+import theme from "./theme";
 
 const pages = [
   {
