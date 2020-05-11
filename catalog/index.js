@@ -14,4 +14,6 @@ const pages = [
 ReactDOM.render(
   <Catalog title="Catalog" pages={pages} />,
   document.getElementById("catalog")
+  theme={theme}
+  logoSrc={logo}
 );
