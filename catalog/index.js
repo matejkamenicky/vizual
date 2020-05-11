@@ -12,6 +12,15 @@ const pages = [
 ];
 
 ReactDOM.render(
-  <Catalog title="Catalog" pages={pages} theme={theme} />,
+  <Catalog title="Catalog" 
+  pages={pages} 
+  theme={theme}
+  pages={[
+      {
+        path: "/introduction",
+        title: "Introduction",
+        content: pageLoader(() => import("./intro.md"))
+      },
+      />,
   document.getElementById("catalog")
  );
